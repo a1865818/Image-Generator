@@ -122,5 +122,6 @@ Thumbs.db
 !.nvmrc
 !.phpcs.xml.dist
 
+
 # Avoid .env
 .env
