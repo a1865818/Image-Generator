@@ -23,7 +23,8 @@ const CreatePost = () => {
         setGeneratingImg(true);
         console.log('Sending request with prompt:', form.prompt);
 
-        const response = await fetch('http://localhost:3000/api/v1/huggingface', {
+        // http://localhost:3000/api/v1/huggingface
+        const response = await fetch('https://andrew-image-generator.onrender.com/api/v1/huggingface', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -56,7 +57,8 @@ const CreatePost = () => {
     if (form.prompt && form.photo) {
       setLoading(true);
       try {
-        const response = await fetch('http://localhost:3000/api/v1/post', {
+        // http://localhost:3000/api/v1/post
+        const response = await fetch('https://andrew-image-generator.onrender.com/api/v1/post', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
