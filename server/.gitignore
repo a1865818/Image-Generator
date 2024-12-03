@@ -121,3 +121,6 @@ Thumbs.db
 !.gitignore
 !.nvmrc
 !.phpcs.xml.dist
+
+# Avoid .env
+.env
