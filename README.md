@@ -4,12 +4,12 @@
 [**Public Repository**](https://github.com/a1865818/Image-Generator)  
 
 ## **Overview**  
-ImagiAI is a personal project designed as a hands-on practice with **React.js**, integrating the **OpenAI API** to generate unique AI-driven images. The application features a streamlined user experience, with options to save, share, and manage image prompts.  
+ImagiAI is a personal project designed as a hands-on practice with **React.js**, integrating the **HuggingFace API ** to generate unique AI-driven images. The application features a streamlined user experience, with options to save, share, and manage image prompts.  
 
 Users can run this project locally by setting up dependencies based on `package.json` for both client and server and generating the required API keys.  
 
 ## **Features**  
-- **AI-Driven Image Generation**: Utilize the **OpenAI API** to generate custom images based on user prompts.  
+- **AI-Driven Image Generation**: Utilize the **HuggingFace API** to generate custom images based on user prompts.  
 - **User Management**: Save and associate image prompts with user accounts stored in a database.  
 - **Image Hosting**: Upload images to **Cloudinary** for reliable storage and link generation.  
 - **Responsive Design**: Built with **TailwindCSS** for mobile-friendly layouts and a modern look.  
@@ -31,7 +31,7 @@ Users can run this project locally by setting up dependencies based on `package.
 - **Fontawesome**  
 
 ### **APIs and Services**  
-- **OpenAI API**: For generating unique images based on user prompts.  
+- **HuggingFace API**: For generating unique images based on user prompts.  
 - **MongoDB**: For storing image URLs, prompts, and user details.  
 - **Cloudinary**: For uploading and hosting images, generating shareable links.  
 
@@ -55,13 +55,13 @@ Users can run this project locally by setting up dependencies based on `package.
    npm install  
    ```  
 5. Set up API keys:  
-   - OpenAI API Key: Required for image generation.  
+   - HuggingFace API Key: Required for image generation.  
    - MongoDB URI: For database connectivity.  
    - Cloudinary API Key: For image uploading and hosting.  
 
 6. Create a `.env` file in the root directory with the following structure:  
    ```env  
-   OPENAI_API_KEY=<Your_OpenAI_API_Key>  
+   HuggingFace API_KEY=<Your_HuggingFace API_Key>  
    MONGODB_URI=<Your_MongoDB_URI>  
    CLOUDINARY_API_KEY=<Your_Cloudinary_API_Key>  
    CLOUDINARY_SECRET=<Your_Cloudinary_Secret>  
@@ -109,7 +109,7 @@ Image-Generator/
 This project is licensed under the **MIT License**.  
 
 ## **Acknowledgments**  
-- **OpenAI** for the API integration.  
+- **HuggingFace** for the API integration.  
 - **MongoDB** for database support.  
 - **Cloudinary** for reliable image hosting.  
 - **TailwindCSS** for sleek, responsive designs.  
