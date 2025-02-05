@@ -114,6 +114,3 @@ This project is licensed under the **MIT License**.
 - **Cloudinary** for reliable image hosting.  
 - **TailwindCSS** for sleek, responsive designs.  
 
----  
-
-Feel free to modify this as needed!
